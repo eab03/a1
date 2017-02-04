@@ -1,0 +1,71 @@
+body {
+	background-image: url("https://s3.amazonaws.com/eabdgmde15/pomes_images/fall/fall5.jpg");
+	font-family: Georgia, Cambria, serif;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.wrapper {
+	background-image: url("https://s3.amazonaws.com/eabdgmde15/pomes_images/fall/fall3.jpg");
+	border: 6px solid black;
+	margin: 0 auto;
+	min-width: 600px;
+	width: 60%;
+}
+
+header {
+	background-color: #393939;
+	height: 100px;
+	overflow: hidden;
+}
+
+.container {
+	background-color: white;
+	height: 550px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+h1 {
+	color: coral;
+	font-size: 2.5em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h2 {
+	color: coral;
+	font-size: 1.75em;
+	padding-left: 1.5em;
+	vertical-align: middle;
+}
+
+#vines {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-height: 100px;
+	max-width: 50px;
+	width: auto;
+}
+
+#intro {
+	padding-left: 2.5em;
+}
+
+.text {
+	color: #393939;
+	text-align: left;
+}
+
+/* === footer === */
+
+footer {
+	background-color: #393939;
+	color: white;
+	font-size: .75em;
+	height: 35px;
+	margin-top: -20px;
+	padding: .2em 1em 0 0;
+	text-align: right;
+}
