@@ -26,7 +26,7 @@
 				</div>
 			</div>
 
-			<img src="image/vines.jpg" id="vines" alt="vines" />
+			<img src="images/vines.jpg" id="vines" alt="vines" />
 
 			<h2>Random Quote</h2>
 			<div id="quote">
