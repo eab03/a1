@@ -1,4 +1,7 @@
+<?php require('quoteList.php'); ?>
+
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -17,25 +20,28 @@
 		</header>
 
 		<div class="container">
-			<img src="images/vines.jpg" id="vines" alt="vines" />
 
+			<img src="images/my_photo.jpg" id="photo" alt="my_photo" />
 			<h2>About Me</h2>
-			<div id="intro">
-				<div class="text">
-					<p>We shall not cease from all exploration</p>
-				</div>
+
+			<div class="text" id="intro">
+				<p>Hello! My name is Liz, and I live in Cambridge, MA. Currently, I am a degree
+				candidate in the Digital Media Design master's program at the
+				Harvard Extension School and by day work full-time at the Alumni Center
+				at Harvard Law School.</p>
+				<p>I started taking web development/design classes about a year and a half ago for the program, and
+				after a few more classes, here I am today. My hope in this class is to continue to learn new skills,
+				 where my strengths and interests lie, and go from there!
+				<p>And when I'm not busy with work and classes (ha!), I enjoy
+				traveling, photography, yoga, enjoying the outdoors (yes, even the snow!), and eating chocolate
+				and drinking coffee (preferably together!).</p>
 			</div>
 
-			<img src="images/vines.jpg" id="vines" alt="vines" />
-
-			<h2>Random Quote</h2>
-			<div id="quote">
-				<div class="text">
-					<blockquote>We shall not cease from all exploration<br/> And the end of all of all our exploring<br/> Will be to arrive where we started<br/> And know the place for the first time. -T.S. Eliot </blockquote>
-				</div>
-			</div>
-
-		</div>
+			<h2>A Thought for the Day</h2>
+			<div class="text" id="quote">
+				<blockquote><?php echo $quotes[$rand_keys] . "\n"; ?></blockquote>
+ 			</div>
+		</div>	<!-- close container -->
 
 		<footer>
 			<div id="footer">
@@ -45,5 +51,4 @@
 
 	</div>
 	<!-- close wrapper -->
-
-	</html>
+</html>

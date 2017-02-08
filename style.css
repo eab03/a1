@@ -1,16 +1,16 @@
 body {
-	background-image: url("https://s3.amazonaws.com/eabdgmde15/pomes_images/fall/fall5.jpg");
+	background-image: url("images/fall6.jpg");
 	font-family: Georgia, Cambria, serif;
 	font-size: 100%;
 	font-weight: normal;
 }
 
 .wrapper {
-	background-image: url("https://s3.amazonaws.com/eabdgmde15/pomes_images/fall/fall3.jpg");
+	background-image: url("images/fall3.jpg");
 	border: 6px solid black;
 	margin: 0 auto;
 	min-width: 600px;
-	width: 60%;
+	width: 55%;
 }
 
 header {
@@ -21,8 +21,9 @@ header {
 
 .container {
 	background-color: white;
-	height: 550px;
+	height: 700px;
 	margin: 0 auto;
+	margin-top: -23px;
 	width: 60%;
 }
 
@@ -36,16 +37,18 @@ h1 {
 h2 {
 	color: coral;
 	font-size: 1.75em;
-	padding-left: 1.5em;
+	padding: 1em 0 0 1.5em;
 	vertical-align: middle;
 }
 
-#vines {
+#photo {
 	display: block;
+	float: right;
 	height: auto;
 	margin: 0 auto;
-	max-height: 100px;
-	max-width: 50px;
+	max-height: 105px;
+	max-width: 255px;
+	padding: 2em 2.25em 1em 1.25em;
 	width: auto;
 }
 
@@ -56,6 +59,11 @@ h2 {
 .text {
 	color: #393939;
 	text-align: left;
+	padding-right: 2.5em;
+}
+
+span {
+	text-indent: 25px;
 }
 
 /* === footer === */
