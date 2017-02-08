@@ -21,7 +21,7 @@ header {
 
 .container {
 	background-color: white;
-	height: 700px;
+	height: 715px;
 	margin: 0 auto;
 	margin-top: -23px;
 	width: 60%;
@@ -58,6 +58,7 @@ h2 {
 
 .text {
 	color: #393939;
+	font-size: 1.05em;
 	text-align: left;
 	padding-right: 2.5em;
 }
