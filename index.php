@@ -1,13 +1,13 @@
 <?php require('quoteList.php'); ?>
 
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 	<meta charset="utf-8">
 
-	<title>Liz Bright Webpage</title>
-	<!--my stylesheet -->
+	<title>Liz Bright Introduction</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
@@ -31,7 +31,7 @@
 				at Harvard Law School.</p>
 				<p>I started taking web development/design classes about a year and a half ago for the program, and
 				after a few more classes, here I am today. My hope in this class is to continue to learn new skills,
-				 where my strengths and interests lie, and go from there!
+				see where my strengths and interests lie, and go from there!</p>
 				<p>And when I'm not busy with work and classes (ha!), I enjoy
 				traveling, photography, yoga, enjoying the outdoors (yes, even the snow!), and eating chocolate
 				and drinking coffee (preferably together!).</p>
@@ -41,7 +41,8 @@
 			<div class="text" id="quote">
 				<blockquote><?php echo $quotes[$rand_keys] . "\n"; ?></blockquote>
  			</div>
-		</div>	<!-- close container -->
+		</div>
+		<!-- close container -->
 
 		<footer>
 			<div id="footer">

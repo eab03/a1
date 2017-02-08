@@ -1,6 +1,6 @@
 body {
 	background-image: url("images/fall6.jpg");
-	font-family: Georgia, Cambria, serif;
+	font-family: Futura, sans-serif;
 	font-size: 100%;
 	font-weight: normal;
 }
@@ -21,24 +21,26 @@ header {
 
 .container {
 	background-color: white;
-	height: 715px;
+	height: 700px;
 	margin: 0 auto;
-	margin-top: -23px;
-	width: 60%;
+	margin-top: -27px;
+	width: 500px;
+}
+
+h1, h2 {
+	color: coral;
+	font-family: Bodoni, serif;
+	vertical-align: middle;
 }
 
 h1 {
-	color: coral;
-	font-size: 2.5em;
+	font-size: 2.75em;
 	text-align: center;
-	vertical-align: middle;
 }
 
 h2 {
-	color: coral;
-	font-size: 1.75em;
-	padding: 1em 0 0 1.5em;
-	vertical-align: middle;
+	font-size: 2em;
+	padding: .75em 0 0 1.15em;
 }
 
 #photo {
@@ -58,16 +60,11 @@ h2 {
 
 .text {
 	color: #393939;
-	font-size: 1.05em;
-	text-align: left;
+	font-size: 1em;
+	margin-top: -1em;
 	padding-right: 2.5em;
+	text-align: left;
 }
-
-span {
-	text-indent: 25px;
-}
-
-/* === footer === */
 
 footer {
 	background-color: #393939;
