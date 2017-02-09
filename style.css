@@ -3,10 +3,12 @@ html {
 	background-image: url("images/fall7.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
 
 body {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -39,7 +41,7 @@ header {
 }
 
 h1, h2 {
-	color: coral;
+	color: #ff8362;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	vertical-align: middle;
 }
@@ -68,7 +70,6 @@ h2 {
 }
 
 .text {
-	color: #393939;
 	font-size: 1em;
 	line-height: 150%;
 	margin-top: 0;
@@ -104,11 +105,15 @@ footer {
 	vertical-align: middle;
 }
 
-@media only screen and (max-width: 800px) {
-    html {
-        background-color: coral;
-    }
+@media only screen and (max-device-width: 768px) {
 	.container {
 		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.wrapper {
+		min-width: 769px;
+		overflow: hidden;
 	}
 }
