@@ -105,15 +105,11 @@ footer {
 	vertical-align: middle;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 800px) {
+    html {
+        background-color: #f88379;
+    }
 	.container {
 		width: 75%;
-	}
-}
-
-@media only screen and (min-width: 769px) {
-	.wrapper {
-		min-width: 769px;
-		overflow: hidden;
 	}
 }
