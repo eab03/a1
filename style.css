@@ -28,10 +28,10 @@ header {
 
 .container {
 	background-color: white;
-	height: 660px;
 	margin: 0 auto;
 	margin-top: -23px;
-	width: 500px;
+	padding-bottom: 15px;
+	width: 65%;
 }
 
 h1, h2 {
@@ -48,7 +48,7 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
-	padding: .75em 0 0 1.35em;
+	padding: .95em 0 0 1.35em;
 }
 
 #photo {
@@ -56,9 +56,9 @@ h2 {
 	float: right;
 	height: auto;
 	margin: 0 auto;
-	max-height: 105px;
-	max-width: 255px;
-	padding: 2em 2.25em 1em 1.25em;
+	max-height: 12%;
+	max-width: 22%;
+	padding: 0 2.25em 2em 1.1em;
 	width: auto;
 }
 
@@ -69,7 +69,8 @@ h2 {
 .text {
 	color: #393939;
 	font-size: .95em;
-	margin-top: -1em;
+	line-height: 162%;
+	margin-top: -.85em;
 	padding-right: 2.5em;
 	text-align: left;
 }
@@ -80,7 +81,6 @@ footer {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: .75em;
 	height: 35px;
-	margin-top: -20px;
 	padding: .2em 1em 0 0;
 	text-align: right;
 }
