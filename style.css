@@ -81,6 +81,10 @@ h2 {
 	padding-left: 2.5em;
 }
 
+#intro h2 {
+	padding-left: 2.7em;
+}
+
 p:first-child {
 	margin-top: 0;
 }
@@ -111,5 +115,15 @@ footer {
     }
 	.container {
 		width: 75%;
+	}
+}
+
+@media only screen and (min-device-width: 2000px) {
+	.container {
+		width: 50%;
+	}
+	.text {
+		font-size: 1.2em;
+		line-height: 170%;
 	}
 }

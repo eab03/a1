@@ -23,8 +23,9 @@
 
 		<div class="container">
 
+			<img src="images/my_photo.jpg" id="photo" alt="my_photo" />
+
 			<div class="introduction">
-				<img src="images/my_photo.jpg" id="photo" alt="my_photo" />
 				<h2>About Me</h2>
 				<div class="text" id="intro">
 					<p>Hello! My name is Liz, and I live in Cambridge, MA. Currently, I am a degree
